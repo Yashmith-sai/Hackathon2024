@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Surge</title>
+    <link rel="stylesheet" href="stylesheet6.css">
+</head>
+<body>
+    <header>
+        <h1>Med Surge</h1>
+        <nav>
+            <a id="homeAnchor" class="curved-link" onclick="showSection('home')">Home</a>
+            <a id="patient-infoAnchor" class="curved-link" onclick="showSection('patient-info')">Patient Information</a>
+            <a id="appointmentsAnchor" class="curved-link" onclick="showSection('appointments')">Appointments</a>
+            <a id="medicationsAnchor" class="curved-link" onclick="showSection('medications')">Medications</a>
+            <a id="alertsAnchor" class="curved-link" onclick="showSection('alerts')">Med Alerts</a>
+            <a id="contactAnchor" class="curved-link" onclick="showSection('contact')">Contact Us</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <!--<h2>Home</h2>
+            <p>Here you can view the details and info about the app</p>-->
+            <center>
+                <div style="align-content:center">
+                    <div>
+                        <h1>Where Health Meets Technology</h1>
+                        <p>Health Tech Revolution</p>
+                    </div>
+
+                </div>
+
+                <div style="justify-content: center">
+                    <h1><img src="download2.gif"></h1>
+                </div>
+                <br />
+                <br />
+                <br />
+            </center>
+                <!--<div href="HTMLPage1.html" class="button-container">-->
+                   
+                <!--</div>-->
+                <br />
+                <br />
+
+            
+            <!-- Add form or details related to patient information -->
+        </section>
+        <section id="patient-info">
+            <h2>Patient Information</h2>
+            <p>Here you can view and update patient information.</p>
+            <!-- Add form or details related to patient information -->
+            <div class="section">
+                <h2>Personal Information</h2>
+                <p><span class="label">First Name:</span> <span class="info">John</span></p>
+                <p><span class="label">Last Name:</span> <span class="info">Doe</span></p>
+                <p><span class="label">Date of Birth:</span> <span class="info">January 15, 1980</span></p>
+                <p><span class="label">Gender:</span> <span class="info">Male</span></p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="section">
+                <h2>Contact Information</h2>
+                <p><span class="label">Phone Number:</span> <span class="info">(123) 456-7890</span></p>
+                <p><span class="label">Email Address:</span> <span class="info">john.doe@example.com</span></p>
+                <p><span class="label">Address:</span> <span class="info">123 Main St, Anytown, USA</span></p>
+            </div>
+
+            <!-- Medical History -->
+            <div class="section">
+                <h2>Medical History</h2>
+                <p><span class="label">Current Medical Conditions:</span> <span class="info">None</span></p>
+                <p><span class="label">Current Medications:</span> <span class="info">None</span></p>
+                <p><span class="label">Allergies:</span> <span class="info">Penicillin</span></p>
+            </div>
+
+        </section>
+
+        <section id="appointments">
+            <h2>Appointments</h2>
+            <p>Manage and view your upcoming appointments here.</p>
+            <div class="section">
+                <h2>Upcoming Appointments</h2>
+                <p class="date"><span class="label">Date:</span> <span class="info">September 15, 2024</span></p>
+                <p class="details"><span class="label">Time:</span> <span class="info">10:00 AM</span></p>
+                <p class="details"><span class="label">Doctor:</span> <span class="info">Dr. Jane Smith</span></p>
+                <p class="details"><span class="label">Location:</span> <span class="info">Main Clinic, Room 202</span></p>
+            </div>
+            <div class="section">
+                <h2>Past Appointments</h2>
+                <p class="date"><span class="label">Date:</span> <span class="info">August 20, 2024</span></p>
+                <p class="details"><span class="label">Time:</span> <span class="info">2:00 PM</span></p>
+                <p class="details"><span class="label">Doctor:</span> <span class="info">Dr. John Doe</span></p>
+                <p class="details"><span class="label">Location:</span> <span class="info">Main Clinic, Room 101</span></p>
+            </div>
+
+            <!-- Contact Information -->
+            <!-- Add features related to appointments -->
+        </section>
+        <section id="alerts">
+            <h2>Med Alerts</h2>
+            <p>Add reminders</p>
+            <input type="time" id="alarmTime">
+            <button onclick="setAlarm()">Set Alarm</button>
+            <p id="alarmMessage"></p>
+            <!-- Add features related to appointments -->
+        </section>
+
+        <section id="medications">
+            <center>
+                <h2>Medications</h2>
+                <br />
+                <br />
+
+                <!--<p>Access and view medical reports here.</p>-->
+                <div class="search-bar" style="display:none">
+                    <input type="text" class="search-input" placeholder="Search..." id="searchInput">
+                    <button class="search-button" onclick="searchTiles()">Search</button>
+                </div>
+
+                <table>
+                    <tr>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Fever</h2>
+                                <img src="fever.jpg" style="width:240px;height:250px" />
+                                <p>Fever is a temporary increase in body temperature, often due to an illness. It's a common symptom of many different conditions, ranging from minor infections to more serious health issues. In adults, a fever is typically defined as a body temperature above 100.4°F (38°C).</p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Flu</h2>
+                                <img src="flu.jpg" style="width:250px;height:250px" />
+                                <p>The flu, short for influenza, is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness and, in some cases, can lead to hospitalization or even death. The flu primarily affects the nose, throat, and sometimes the lungs.</p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Tuberculosis (TB)</h2>
+                                <img src="TB.jpg" style="width:250px;height:250px" />
+                                <p>A bacterial infection caused by Mycobacterium tuberculosis, primarily affecting the lungs.</p>
+                                <!-- Add features related to reports -->
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Pneumonia</h2>
+                                <img src="Pneumonia.jpg" style="width:250px;height:250px" />
+                                <p>An infection that inflames the air sacs in one or both lungs, which may be caused by bacteria, viruses, or fungi.</p>
+                                <!-- Add features related to reports -->
+                            </div>
+                        </td>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Depression</h2>
+                                <img src="Depression.jpg" style="width:250px;height:250px" />
+                                <p>A mood disorder characterized by persistent feelings of sadness, hopelessness, and loss of interest in activities.</p>
+                                <!-- Add features related to reports -->
+                            </div>
+                        </td>
+                        <td>
+                            <div class="section" style="width: 280px; height: 500px">
+                                <h2>Allergies</h2>
+                                <img src="Allergies.jpg" style="width:250px;height:250px" />
+                                <p>Immune system responses to substances (allergens) that are generally harmless, such as pollen, dust mites, or certain foods.</p>
+                                <!-- Add features related to reports -->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, please reach out to us.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medical Application. All rights reserved.</p>
+    </footer>
+    <script>
+        showSection('home');
+        let alarmTimeout;
+        function setAlarm() {
+            const alarmTime = new Date().toDateString() + ' ' + document.getElementById('alarmTime').value;
+            const timeToAlarm = new Date(alarmTime) - new Date();
+
+            if (timeToAlarm > 0) {
+                if (alarmTimeout) clearTimeout(alarmTimeout);
+                alarmTimeout = setTimeout(() => {
+                    new Audio('alarm.mp3').play(); // Replace with your alarm sound file path
+                    document.getElementById('alarmMessage').textContent = "Alarm is ringing!";
+                }, timeToAlarm);
+                document.getElementById('alarmMessage').textContent = "Alarm set!";
+            }
+        }
+        function showSection(sectionId) {
+            // Hide all sections
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('patient-info').style.display = 'none';
+            document.getElementById('appointments').style.display = 'none';
+            document.getElementById('medications').style.display = 'none';
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('alerts').style.display = 'none';
+
+            document.getElementById('homeAnchor').classList.remove('highlightSection');
+            document.getElementById('patient-infoAnchor').classList.remove('highlightSection');
+            document.getElementById('appointmentsAnchor').classList.remove('highlightSection');
+            document.getElementById('medicationsAnchor').classList.remove('highlightSection');
+            document.getElementById('alertsAnchor').classList.remove('highlightSection');
+            document.getElementById('contactAnchor').classList.remove('highlightSection');
+
+            // Show the selected section            
+            document.getElementById(sectionId).style.display = 'block';
+            //document.getElementById('homeAnchor').classList.add('highlightSection');
+            const secAnchor = sectionId + 'Anchor';
+            document.getElementById(secAnchor).classList.add('highlightSection');
+        }
+        function showTileInfo(tileName) {
+            // Replace with logic to display information about the clicked tile
+            console.log(`Clicked tile: ${tileName}`);
+        }
+
+        function searchTiles() {
+            const searchInput = document.getElementById('searchInput').value;
+            // Replace with logic to filter and display relevant tiles based on search input
+            console.log(`Search query: ${searchInput}`);
+        }
+        
+    </script>
+</body>
+</html>

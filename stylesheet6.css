@@ -1,0 +1,138 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+header {
+    background-color: mediumaquamarine;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        background-color: aquamarine;
+        padding: 10px 0;
+    }
+
+        header nav a {
+            color: darkolivegreen;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+            header nav a:hover {
+                background-color: aqua;
+            }
+
+main {
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        margin-bottom: 5px;
+    }
+
+    form input, form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form button {
+        padding: 10px;
+        background-color: aqua;
+        color: darkolivegreen;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        form button:hover {
+            background-color: aqua;
+        }
+
+footer {
+    background-color: mediumaquamarine;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+button {
+    padding: 10px;
+    background-color: aqua;
+    color: darkolivegreen;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    align-content: center;
+}
+.section:hover {
+    background-color: #e0f7fa; /* Light cyan background on hover */
+    transform: scale(1.02); /* Slightly enlarge the section */
+}
+
+.highlighted {
+    border-color: #00796b; /* Change border color */
+    background-color: #b2dfdb; /* Light teal background */
+}
+ .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+td {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.curved-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: mediumaquamarine;
+    border-radius: 25px; /* Adjust the value for more or less curve */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+    .curved-link:hover {
+        background-color: #41693E;
+        transform: scale(1.05); /* Slightly scale the link on hover for a nice effect */
+    }
+
+.highlightSection {
+    background-color: #41693E;
+    transform: scale(1.05);
+}
